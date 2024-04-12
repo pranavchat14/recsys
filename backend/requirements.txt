@@ -1,0 +1,6 @@
+fastapi==0.110.1
+numpy==1.26.4
+passlib==1.7.4
+Pillow==10.3.0
+pydantic==2.7.0
+SQLAlchemy==2.0.15

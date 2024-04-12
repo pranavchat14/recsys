@@ -1,0 +1,22 @@
+# Ignore Python byte-compiled files
+__pycache__/
+*.pyc
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore environment directory
+venv/
+.env
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore the directories
+deprecated/
+
+#Ignore the files
+backend/static/images/*
+# Keep directories
+!backend/static/images/.gitkeep
