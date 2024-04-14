@@ -6,5 +6,5 @@ class Settings(BaseSettings):
     database_url: str
 
     class Config:
-        dot_path = find_dotenv('.env')
+        dot_path = find_dotenv(".env")
         env_file = dot_path
